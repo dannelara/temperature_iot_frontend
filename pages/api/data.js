@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
   if (method == "POST") {
     // Remove old data.
-    TemperatureData.deleteMany({});
+    await TemperatureData.deleteMany({});
 
     const { temperature, warning } = req.query;
 
