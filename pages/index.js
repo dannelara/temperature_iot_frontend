@@ -10,10 +10,10 @@ export default function Home(props) {
   return (
     <StyledContainer>
       <Head>
-        <title>Elasticsearch</title>
+        <title>Temperature</title>
         <meta
-          name="Assignment Wt2 elasticsearch"
-          content="Application for elasticsearch"
+          name="Assignment iot"
+          content="Application for my iot device"
         />
       </Head>
       <StyledMain>
